@@ -129,4 +129,6 @@ One of the reasons I built this tool is to learn Gatsby. If you know what Gatsby
 ## Fork Custom Features
 ### added modules
 - gatsby-plugin-catch-links
+to activate markdown standard relative page link
 - gatsby-remark-line-breaks
+to activate obsidian like markdown line breaks
