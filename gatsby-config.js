@@ -30,6 +30,7 @@ module.exports = {
     hoverPreview: true // If true, shows the content of an internal link in a tooltip when hovering over the link.
   },
   plugins: [
+    `gatsby-plugin-catch-links`,
     `gatsby-plugin-sharp`,
     `gatsby-remark-images`,
     `gatsby-plugin-dark-mode`,
@@ -97,6 +98,7 @@ module.exports = {
         extensions: [`.mdx`, `.md`],
         gatsbyRemarkPlugins: [
           'gatsby-remark-mermaid',
+          'gatsby-remark-line-breaks',
           {
             resolve: `gatsby-remark-images`,
             options: {

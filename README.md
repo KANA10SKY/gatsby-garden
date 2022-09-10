@@ -125,3 +125,8 @@ The top part(within the `---`) is called frontmatter. Its the metadata about the
 ## Contributing
 
 One of the reasons I built this tool is to learn Gatsby. If you know what Gatsby and want to help with this project, I'm more than excited to get some expert help :-D. If you are interested in helping out, go to the [Contributing page](https://github.com/binnyva/gatsby-garden/blob/master/CONTRIBUTING.md).
+
+## Fork Custom Features
+### added modules
+- gatsby-plugin-catch-links
+- gatsby-remark-line-breaks

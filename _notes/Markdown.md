@@ -17,7 +17,7 @@ Next, you should be able to create links - like [this](https://standup-philosoph
 
 ### Images
 
-![Image](mental_programming.jpg)
+![Image](Publish/gatsby-garden/_notes/images/mental_programming.jpg)
 
 ---
 
