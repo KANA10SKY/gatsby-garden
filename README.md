@@ -132,3 +132,16 @@ One of the reasons I built this tool is to learn Gatsby. If you know what Gatsby
 to activate markdown standard relative page link
 - gatsby-remark-line-breaks
 to activate obsidian like markdown line breaks
+
+Added below code and file to avoid mermaid wrapped text hidden.
+``` js
+// gatsby-browser.js
+import './src/styles/common/arrange.css'
+```
+``` css
+/* To keep Texts visible */
+.mermaid g.nodes foreignObject div{
+/*color:mediumblue;*/
+font-size:0.75em;
+}
+```
