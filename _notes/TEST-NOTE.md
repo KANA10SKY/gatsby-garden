@@ -7,14 +7,13 @@ tags:
 ## Generic Test
 ### Attachment Test (Image files)
 - Obsidian Drag&Drop Style 1
-  ![[Publish/gatsby-garden/_notes/images/HighresScreenshot00064.png]]
+  ![[Publish/gatsby-garden/_notes/images/Lenna_(test_image).png]
 - Obsidian Drag&Drop Style 2
-  ![[Publish/gatsby-garden/_notes/images/HighresScreenshot00064.png]] 
+  ![[Publish/gatsby-garden/_notes/images/Lenna_(test_image).png]] 
 - Standard Style
-  ![Image](images/HighresScreenshot00064.png) 
-  ![Image](images/mental_programming.jpg) 
+  ![Valid_ImageLink](images/Lenna_(test_image).png) 
+  ![Valid_ImageLink](images/mental_programming.jpg) 
   
-  ![test image](images/HighresScreenshot00064.png)
 <!-- ![Image](mental_programming.jpg) -->
 
 ### URL Link Test
