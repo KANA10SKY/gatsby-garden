@@ -42,6 +42,11 @@ flowchart LR
     A -->|Art-Net|B[Real Stage]
 ```
 
+```mermaid
+flowchart LR
+DAW -- 128 MIDI NOTE/CC x4tracks --> mport[virtual midi port]
+-->m2a[MIDI2ArtNet] -- 1universe 512channels Art-Net -->StageFixtures
+```
 
 ## obsidian-vimrc-support TEST
 [[wiki]]

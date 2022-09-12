@@ -1,0 +1,5 @@
+/* To keep Texts visible */
+.mermaid g.nodes foreignObject div{
+  /*color:mediumblue;*/
+  font-size:0.75em;
+}
