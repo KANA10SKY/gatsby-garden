@@ -97,7 +97,6 @@ module.exports = {
       options: {
         extensions: [`.mdx`, `.md`],
         gatsbyRemarkPlugins: [
-          'gatsby-remark-mermaid',
           'gatsby-remark-line-breaks',
           {
             resolve: `gatsby-remark-images`,
@@ -105,6 +104,8 @@ module.exports = {
               maxWidth: 1200,
             },
           },
+          //'gatsby-remark-mermaid',
+          'gatsby-remark-graph',
           {
             resolve: 'gatsby-remark-obsidian',
             options: {

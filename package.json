@@ -40,6 +40,7 @@
     "gatsby-plugin-purgecss": "^6.1.1",
     "gatsby-plugin-react-helmet": "^5.0.0",
     "gatsby-plugin-sharp": "^4.4.0",
+    "gatsby-remark-graph": "^0.2.6",
     "gatsby-remark-images": "^6.4.0",
     "gatsby-remark-line-breaks": "^1.0.0",
     "gatsby-remark-mermaid": "^2.1.0",
