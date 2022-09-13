@@ -105,7 +105,29 @@ module.exports = {
             },
           },
           //'gatsby-remark-mermaid',
-          'gatsby-remark-graph',
+          //'gatsby-remark-graph',
+          {
+	          resolve: 'gatsby-remark-mermaid',
+	          options : {
+		          language: 'mermaid',
+		          theme: 'default',
+		          viewport: {
+			          width: 200,
+			          height: 200
+		          },
+		          mermaidOptions: {
+			          //fontSize: 11
+			          'themeVariables': {'fontSize': '12px'}
+			          //flowchart: {htmlLabels: true}
+			          //htmlLabels: true,
+			          //cloneCssStyles: false
+			          // flowchart: {
+			          //         htmlLabels: true,
+			          //         cloneCssStyles: false
+			          // }
+		          }
+	          }
+	        },
           {
             resolve: 'gatsby-remark-obsidian',
             options: {
