@@ -136,7 +136,7 @@ to activate obsidian like markdown line breaks
 Added below code and file to avoid mermaid wrapped text hidden.
 ``` js
 // gatsby-browser.js
-import './src/styles/common/arrange.css'
+// import './src/styles/common/arrange.css'
 ```
 ``` css
 /* To keep Texts visible */
@@ -147,7 +147,7 @@ font-size:0.75em;
 ```
 
 changed mermaid plugin to configure option to arrange text size. (local test: ok, netlify deploy: text oversize and hidden.)
-'''
+```
            {
 	          resolve: 'gatsby-remark-mermaid',
 	          options : {
